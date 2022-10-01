@@ -1,0 +1,91 @@
+
+* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto" , sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 33% 1fr ;
+    grid-gap: 1rem;
+}
+
+.personal,
+.skills,
+.languages{
+    padding: 1rem;
+    line-height: 2;
+}
+
+
+.left,
+ .about-me,
+  .education{
+    background-color:white;
+}
+
+
+.left-image{
+    position: relative;
+}
+
+.left-image h2{
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.about-me,
+  .education{
+    line-height: 2;
+    padding: 2rem;
+}
+
+.about-me ul{
+    margin: 2rem 0;
+}
+
+.music{
+    background-color:cornflowerblue;
+    color: aliceblue;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+
+.hobbies{
+    background-color:cornflowerblue;
+    color: aliceblue;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+
+.family{
+    background-color:cornflowerblue;
+    color: aliceblue;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+
+
+.education ul{
+    margin: 2rem 0;
+}
+
+footer{
+    background-color:darkgray;
+    padding: 2rem 0;
+    text-align: center;
+    line-height: 2;
+}
+

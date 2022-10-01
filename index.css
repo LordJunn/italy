@@ -8,6 +8,7 @@
 	scroll-behavior: smooth;
 }
 
+/* :root means using it as a variable, as in so u wont need to repeatedly key in the same thing over & over, similar to coding */
 :root{
 	--bg-color: #fff;
 	--text-color: #221314;
