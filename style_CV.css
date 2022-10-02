@@ -22,6 +22,7 @@ header{
   #top-header{  
     text-align: center;
     height: 0px;
+    padding-bottom: 75px;
   }
   
   /* Styling Navigation Menu */
