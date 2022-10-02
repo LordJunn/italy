@@ -5,92 +5,113 @@ body {
     background-position: center;
     font-family:'Yeseva One',cursive;
  }
+ 
+/*    Styling  Header    */
 header{   
     overflow: hidden;
-} 
-#top-header{  
+  }
+  
+  #top-header{  
     text-align: center;
-    height: 35px;
-}
-#menu{
+    height: 0px;
+    padding-bottom: 75px;
+  }
+  
+  /* Styling Navigation Menu */
+  #menu{
     float: stretch;
     width: 100%;
     height: 100%;
     margin: none;
     position: absolute;
     top: 0;
-}  
-#menu ul{
+  }
+     
+  #menu ul{
     text-align: center;
     float: none;
     margin: none;
-    background:  rgb(211, 233, 243);
-} 
-#menu li{
+    background: rgb(112, 0, 0);
+  }
+     
+  #menu li{
     display: inline-block;
     padding: none;
     margin: none;
-}    
-#menu li a, #menu li span{
+  }
+     
+  #menu li a, #menu li span{
     display: inline-block;
     padding: 0em 1.5em;
     text-decoration: none;
     font-weight: 600;
     text-transform: uppercase;
-    line-height: 60px;  
-}     
-#menu li a{       
-    color: black;
-    font-family: "Times New Roman", Times, serif;
-}     
-#menu li:hover a, #menu li span{
+    line-height: 60px;
+    
+  }
+     
+  #menu li a{       
+    color: #FFF;
+  }
+     
+  #menu li:hover a, #menu li span{
     background: rgba(255, 255, 255, 0.8);
-    color: rgb(191, 230, 248);
-    border-left: 1px solid  rgb(211, 233, 243);
+    color: rgb(112, 0, 0);
+    border-left: 1px solid  rgb(112, 0, 0);
     text-decoration: none;
-}  
-.dropdown {
+  }
+  
+  .dropdown {
     display: inline-block;
     position: relative;
-} 
-button{
+  }
+  
+  button{
     border:none;
     padding: 15px 30px;
     font-size: 18px;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0);
-    color: black;
+    background-color:  rgb(112, 0, 0);
+    color: white;
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Times New Roman", Times, serif;
-}
-button:hover{
-    background: rgba(255, 255, 255, 0.788);
-    color:  rgb(191, 230, 248);
-} 
-.dropdown-options {
+  }
+  
+  button:hover{
+    background: rgba(255, 255, 255, 0.8);
+    color:  rgb(112, 0, 0);
+  }
+  
+  .dropdown-options {
     display: none;
     position: absolute;
     overflow: auto;
-    background-color: rgb(214, 237, 247);
+    background-color: rgb(84, 0, 0);
     border-radius: 5px;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-}  
-.dropdown:hover .dropdown-options {
+  }
+  
+  .dropdown:hover .dropdown-options {
     display: block;
-}
-.dropdown-options a {
+  }
+  
+  .dropdown-options a {
     display: block;
-    color: black;
+    color: white;
     padding: 5px;
     text-decoration: none;
     padding: 20px 40px;  
-}
-.dropdown-options a:hover {
+  }
+  
+  .dropdown-options a:hover {
     color: white;
-    background-color: rgba(185, 227, 247, 0.644);
+    background-color: rgb(215, 0, 0);
     border-radius: 5px;
-}
+  }  
+
+  /* end of dropdown css */
+
 li {
     font-size: 20px;
     letter-spacing: 0.2px;
